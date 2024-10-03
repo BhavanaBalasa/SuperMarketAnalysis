@@ -1,4 +1,12 @@
 # SuperMarketAnalysis
+### Project Overview:
+    The Supermarket Sales Analysis project aims to analyze the sales performance of a supermarket chain to gain actionable insights into various aspects of its operations. This project focuses on understanding sales trends, customer behavior, and product performance, ultimately supporting business decisions to optimize revenue and customer satisfaction.
+### Tools and Technologies:
+  - **Excel: For data storage and quick review.
+  - **SQL: To query and analyze the dataset, perform aggregations, and extract insights.
+ ### ER diagram:
+  ![](https://github.com/BhavanaBalasa/SuperMarketAnalysis/blob/main/erd.png)    
+
 ## Dataset Overview:
     The SuperMarketSales dataset contains transactional sales data from a supermarket. 
     The dataset provides detailed information about each sale, including customer demographics, purchase details, 
@@ -49,12 +57,10 @@
 	Formula: Gross Income = Sales - COGS
 ### Rating:
 	Customer satisfaction rating for the purchase, typically on a scale of 1 to 10. This column is useful for analyzing customer feedback and satisfaction.
- ### ER diagram:
-  ![]()    
-
 
 ### Why I Choose This Project?
 - **Hands_on Learning: Practical experience with  datasets and advanced business problem-solving.
 - **Interest in the Domain: I have a strong interest in writing the sql quereies and finding the logic involved.
 
-### Findings
+### Findings/Insights:
+ - 
