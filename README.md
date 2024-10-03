@@ -50,7 +50,7 @@
 ### Rating:
 	Customer satisfaction rating for the purchase, typically on a scale of 1 to 10. This column is useful for analyzing customer feedback and satisfaction.
  ### ER diagram:
-    
+  ![]()    
 
 
 ### Why I Choose This Project?
