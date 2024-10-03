@@ -2,8 +2,8 @@
 ### Project Overview:
     The Supermarket Sales Analysis project aims to analyze the sales performance of a supermarket chain to gain actionable insights into various aspects of its operations. This project focuses on understanding sales trends, customer behavior, and product performance, ultimately supporting business decisions to optimize revenue and customer satisfaction.
 ### Tools and Technologies:
-  - **Excel/CSV: For data storage and quick review.
-  - **SQL: Used MYSQl to query and analyze the dataset, perform aggregations, and extract insights.
+  - Excel/CSV: For data storage and quick review.
+  - SQL: Used MYSQl to query and analyze the dataset, perform aggregations, and extract insights.
  ### ER diagram:
   ![](https://github.com/BhavanaBalasa/SuperMarketAnalysis/blob/main/erd.png)    
 
@@ -63,39 +63,39 @@
  - ** 2. Using Filter I filtered the Date in general converted it to text and created a new column using the Excel function =DATE(RIGHT(L5,4),LEFT(L5,1),MID(L5,3,2))) and copied the remaining Date values using 
         =L1, removed the previous Date column.
 #### In SQL:
-- ** Changed the column name of InvoiceID used the Sql querie
-       ALTER TABLE supermarketanalysis CHANGE `ï»¿Invoice ID` `InvoiceID` varchar(50);
-- ** To change the data type of each column to appropiate type
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN Branch varchar(50);
+- Changed the column name of InvoiceID used the Sql querie
+       - ALTER TABLE supermarketanalysis CHANGE `ï»¿Invoice ID` `InvoiceID` varchar(50);
+- To change the data type of each column to appropiate type
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN Branch varchar(50);
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN City varchar(50);
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN City varchar(50);
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN `Customer type`  varchar(50);
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN `Customer type`  varchar(50);
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN Gender varchar(50);
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN Gender varchar(50);
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN `Product line` varchar(50);
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN `Product line` varchar(50);
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN `Unit price` varchar(50);
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN `Unit price` varchar(50);
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN Date date;
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN Date date;
 
-   ALTER TABLE supermarketanalysis
-   MODIFY COLUMN Time time;
- - ** assigned primary key to a column InvoiceID
-  ALTER TABLE supermarketanalysis
-  ADD PRIMARY KEY (InvoiceID);
+   - ALTER TABLE supermarketanalysis
+     MODIFY COLUMN Time time;
+ - Assigned primary key to a column InvoiceID
+    - ALTER TABLE supermarketanalysis
+       ADD PRIMARY KEY (InvoiceID);
 
 ### Why I Choose This Project?
-- **Hands_on Learning: Practical experience with  datasets and advanced business problem-solving.
-- **Interest in the Domain: I have a strong interest in writing the sql quereies and finding the logic involved.
+- Hands_on Learning: Practical experience with  datasets and advanced business problem-solving.
+- Interest in the Domain: I have a strong interest in writing the sql quereies and finding the logic involved.
 
 ### Findings/Insights:
  - 
