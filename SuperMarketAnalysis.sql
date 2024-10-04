@@ -154,4 +154,15 @@ FROM supermarketanalysis)
 SELECT ds.Date, ds.TotalSale, cs.CumulativeSales FROM CumulativeSales cs
 INNER JOIN DailySales ds ON cs.Date=ds.Date;
 
+/* 16.Product line with high sales regarding Gender */
+WITH GenderProduct AS(
+SELECT gender, `product line`, SUM(Sales) TotalSales 
+FROM supermarketanalysis
+GROUP BY gender, `product line`),
+GenderProductRank AS(
+SELECT *, RANK() OVER(PARTITION BY gender order by TotalSales DESC) GenderRank
+FROM GenderProduct
+)
+SELECT * FROM GenderProductRank
+WHERE GenderRank=1;
 
