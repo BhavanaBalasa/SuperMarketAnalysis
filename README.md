@@ -98,4 +98,11 @@
 - Interest in the Domain: I have a strong interest in writing the sql quereies and finding the logic involved.
 
 ### Findings/Insights:
- - 
+  1. The Revenue generated for the Super Market in 2019 was 0.32297 million.
+  2. The Branch Giza in the city of Naypyitaw had the highest sales compared to others with a contribution of 34.24%.
+  3. Food and beverage products are high sales and Sports and travel products are highly sold.
+  4. Member ship customers had a high sales contribution of 58.76%.
+  5. Sales from female customers are 60.28% higher compared to those from male customers.
+  6. Sales peak during October, November, and June, with the highest activity observed at 1 PM and 7 PM.
+  7. The most used payment modes are Cash and Ewallet.
+
